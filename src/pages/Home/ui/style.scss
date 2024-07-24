@@ -1,0 +1,12 @@
+#home_page {
+    background: var(--content-color);
+    flex-grow: 1;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+
+    @media screen and (max-width: 768px) {
+        margin: 10px 5px;
+        padding: 10px;
+    }
+}
